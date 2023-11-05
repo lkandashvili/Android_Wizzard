@@ -25,7 +25,6 @@
             android:ems="10"
             android:hint="Name"
             android:inputType="text"
-            android:text="Name"
             android:textColorHint="#575454" />
 
         <Button
