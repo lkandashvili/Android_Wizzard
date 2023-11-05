@@ -18,13 +18,11 @@ class FinishActivity : AppCompatActivity() {
 
         val textView = findViewById<TextView>(R.id.textView)
 
-        var name: String? = ""
-        var lastName: String? = ""
 
         if (bundle != null) {
             val name: String? = bundle.getString("NAME")
             val lastName: String? = bundle.getString("LASTNAME")
-            val id: Long? = bundle.getLong("ID")
+            val id: String? = bundle.getString("ID")
 
             val result = "Name: $name. Lastname: $lastName. ID: $id"
             textView.text = result
